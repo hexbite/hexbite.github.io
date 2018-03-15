@@ -1,0 +1,96 @@
+body {
+  background: #000;
+  color: #FFFFFA;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+  width: 640px;
+  margin: 0 auto;
+  padding-top: 150px;
+  text-align: center;
+}
+
+#logo img {
+  width: 200px;
+}
+
+h1 {
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 26.4px;
+  margin: 40px 0;
+}
+
+h3 {
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 26.4px;
+  margin: 40px 0;
+}
+
+input {
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 15px 10px;
+  margin: 0 10px;
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+
+  &.email {
+    border: 0;
+    width: 250px;
+    outline: none;
+    background: #FFF;
+    opacity: 0.8;
+    &::-webkit-input-placeholder  {
+      opacity: 0.5;
+    }
+    &:focus {
+      border: 0;
+      box-shadow: 0 0 10px #C9FBFF;
+      background: #FFFFFA;
+      color: #666;
+      opacity: 1;
+      &::-webkit-input-placeholder  {
+        opacity: 0.2;
+      }
+    }
+  }
+  &.submit-button {
+    border: 4px solid #C9FBFF;
+    background: transparent;
+    color: #FFFFFA;
+    text-transform: uppercase;
+    border-radius: 50px;
+    padding: 15px 60px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    &:hover {
+      background: #C9FBFF;
+      color: #000;
+    }
+  }
+}
+
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+}
